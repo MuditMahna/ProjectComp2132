@@ -27,17 +27,13 @@ $container-bg: #ffffff;
     font-style: normal;
   }
   
-  // You can add more weights similarly if needed
-  
 
-// ==== MIXINS ====
 @mixin center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-// ==== BASE STYLES ====
 body {
   margin: 0;
   font-family: 'Quicksand', sans-serif;
@@ -191,7 +187,6 @@ body {
   }
 }
 
-// ==== MODAL ====
 .modal {
   position: fixed;
   top: 0;
@@ -266,7 +261,6 @@ body {
   
   
 
-// ==== MEDIA QUERIES ====
 @media (max-width: 1024px) {
   .keyboard {
     button {
