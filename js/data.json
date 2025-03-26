@@ -1,0 +1,402 @@
+[
+    {
+      "word": "physics",
+      "hint": "a school subject"
+    },
+    {
+      "word": "teacher",
+      "hint": "a profession"
+    },
+    {
+      "word": "surprised",
+      "hint": "an emotion"
+    },
+    {
+      "word": "history",
+      "hint": "a school subject"
+    },
+    {
+      "word": "papaya",
+      "hint": "a tropical fruit"
+    },
+    {
+      "word": "hoverboard",
+      "hint": "a mode of transport"
+    },
+    {
+      "word": "firefighter",
+      "hint": "a profession"
+    },
+    {
+      "word": "elsa",
+      "hint": "a cartoon character"
+    },
+    {
+      "word": "hippopotamus",
+      "hint": "a large animal"
+    },
+    {
+      "word": "japan",
+      "hint": "a country"
+    },
+    {
+      "word": "chile",
+      "hint": "a country"
+    },
+    {
+      "word": "mexico",
+      "hint": "a country"
+    },
+    {
+      "word": "naruto",
+      "hint": "a cartoon character"
+    },
+    {
+      "word": "doraemon",
+      "hint": "a cartoon character"
+    },
+    {
+      "word": "rhinoceros",
+      "hint": "a large animal"
+    },
+    {
+      "word": "bicycle",
+      "hint": "a mode of transport"
+    },
+    {
+      "word": "cyan",
+      "hint": "a color"
+    },
+    {
+      "word": "canada",
+      "hint": "a country"
+    },
+    {
+      "word": "nervous",
+      "hint": "an emotion"
+    },
+    {
+      "word": "norway",
+      "hint": "a country"
+    },
+    {
+      "word": "beige",
+      "hint": "a color"
+    },
+    {
+      "word": "pilot",
+      "hint": "a profession"
+    },
+    {
+      "word": "china",
+      "hint": "a country"
+    },
+    {
+      "word": "jackfruit",
+      "hint": "a tropical fruit"
+    },
+    {
+      "word": "knee",
+      "hint": "a body part"
+    },
+    {
+      "word": "mango",
+      "hint": "a tropical fruit"
+    },
+    {
+      "word": "amber",
+      "hint": "a color"
+    },
+    {
+      "word": "goofy",
+      "hint": "a cartoon character"
+    },
+    {
+      "word": "mickey",
+      "hint": "a cartoon character"
+    },
+    {
+      "word": "tram",
+      "hint": "a mode of transport"
+    },
+    {
+      "word": "camel",
+      "hint": "a large animal"
+    },
+    {
+      "word": "wrist",
+      "hint": "a body part"
+    },
+    {
+      "word": "batman",
+      "hint": "a cartoon character"
+    },
+    {
+      "word": "passionfruit",
+      "hint": "a tropical fruit"
+    },
+    {
+      "word": "minnie",
+      "hint": "a cartoon character"
+    },
+    {
+      "word": "elephant",
+      "hint": "a large animal"
+    },
+    {
+      "word": "giraffe",
+      "hint": "a large animal"
+    },
+    {
+      "word": "economics",
+      "hint": "a school subject"
+    },
+    {
+      "word": "skateboard",
+      "hint": "a mode of transport"
+    },
+    {
+      "word": "elbow",
+      "hint": "a body part"
+    },
+    {
+      "word": "violet",
+      "hint": "a color"
+    },
+    {
+      "word": "egypt",
+      "hint": "a country"
+    },
+    {
+      "word": "sad",
+      "hint": "an emotion"
+    },
+    {
+      "word": "coconut",
+      "hint": "a tropical fruit"
+    },
+    {
+      "word": "walrus",
+      "hint": "a large animal"
+    },
+    {
+      "word": "magenta",
+      "hint": "a color"
+    },
+    {
+      "word": "rickshaw",
+      "hint": "a mode of transport"
+    },
+    {
+      "word": "gorilla",
+      "hint": "a large animal"
+    },
+    {
+      "word": "doctor",
+      "hint": "a profession"
+    },
+    {
+      "word": "superman",
+      "hint": "a cartoon character"
+    },
+    {
+      "word": "plumber",
+      "hint": "a profession"
+    },
+    {
+      "word": "shinchan",
+      "hint": "a cartoon character"
+    },
+    {
+      "word": "motorbike",
+      "hint": "a mode of transport"
+    },
+    {
+      "word": "chemistry",
+      "hint": "a school subject"
+    },
+    {
+      "word": "peru",
+      "hint": "a country"
+    },
+    {
+      "word": "germany",
+      "hint": "a country"
+    },
+    {
+      "word": "biology",
+      "hint": "a school subject"
+    },
+    {
+      "word": "turquoise",
+      "hint": "a color"
+    },
+    {
+      "word": "moose",
+      "hint": "a large animal"
+    },
+    {
+      "word": "architect",
+      "hint": "a profession"
+    },
+    {
+      "word": "confused",
+      "hint": "an emotion"
+    },
+    {
+      "word": "excited",
+      "hint": "an emotion"
+    },
+    {
+      "word": "submarine",
+      "hint": "a mode of transport"
+    },
+    {
+      "word": "scared",
+      "hint": "an emotion"
+    },
+    {
+      "word": "bored",
+      "hint": "an emotion"
+    },
+    {
+      "word": "forehead",
+      "hint": "a body part"
+    },
+    {
+      "word": "thumb",
+      "hint": "a body part"
+    },
+    {
+      "word": "eyelid",
+      "hint": "a body part"
+    },
+    {
+      "word": "happy",
+      "hint": "an emotion"
+    },
+    {
+      "word": "lychee",
+      "hint": "a tropical fruit"
+    },
+    {
+      "word": "italy",
+      "hint": "a country"
+    },
+    {
+      "word": "joyful",
+      "hint": "an emotion"
+    },
+    {
+      "word": "spain",
+      "hint": "a country"
+    },
+    {
+      "word": "buffalo",
+      "hint": "a large animal"
+    },
+    {
+      "word": "tongue",
+      "hint": "a body part"
+    },
+    {
+      "word": "lawyer",
+      "hint": "a profession"
+    },
+    {
+      "word": "ankle",
+      "hint": "a body part"
+    },
+    {
+      "word": "guava",
+      "hint": "a tropical fruit"
+    },
+    {
+      "word": "brazil",
+      "hint": "a country"
+    },
+    {
+      "word": "airplane",
+      "hint": "a mode of transport"
+    },
+    {
+      "word": "banana",
+      "hint": "a tropical fruit"
+    },
+    {
+      "word": "chef",
+      "hint": "a profession"
+    },
+    {
+      "word": "engineer",
+      "hint": "a profession"
+    },
+    {
+      "word": "kenya",
+      "hint": "a country"
+    },
+    {
+      "word": "english",
+      "hint": "a school subject"
+    },
+    {
+      "word": "durian",
+      "hint": "a tropical fruit"
+    },
+    {
+      "word": "french",
+      "hint": "a school subject"
+    },
+    {
+      "word": "angry",
+      "hint": "an emotion"
+    },
+    {
+      "word": "crimson",
+      "hint": "a color"
+    },
+    {
+      "word": "silver",
+      "hint": "a color"
+    },
+    {
+      "word": "math",
+      "hint": "a school subject"
+    },
+    {
+      "word": "nostril",
+      "hint": "a body part"
+    },
+    {
+      "word": "scooter",
+      "hint": "a mode of transport"
+    },
+    {
+      "word": "spongebob",
+      "hint": "a cartoon character"
+    },
+    {
+      "word": "grizzly",
+      "hint": "a large animal"
+    },
+    {
+      "word": "shoulder",
+      "hint": "a body part"
+    },
+    {
+      "word": "gold",
+      "hint": "a color"
+    },
+    {
+      "word": "france",
+      "hint": "a country"
+    },
+    {
+      "word": "helicopter",
+      "hint": "a mode of transport"
+    },
+    {
+      "word": "geography",
+      "hint": "a school subject"
+    }
+  ]

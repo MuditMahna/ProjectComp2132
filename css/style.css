@@ -1,0 +1,273 @@
+@font-face {
+  font-family: "Alfa Slab One";
+  src: url("../fonts/AlfaSlabOne-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Quicksand";
+  src: url("../fonts/Quicksand-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Quicksand";
+  src: url("../fonts/Quicksand-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  background-color: #3799e7;
+  color: #222;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  display: grid;
+  grid-template-rows: auto 1fr;
+  min-height: 100vh;
+  transition: background-color 0.3s ease;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #3799e7;
+  color: white;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.header h1, .modal .result-text {
+  font-family: "Alfa Slab One", serif;
+}
+
+.game-grid {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  gap: 1.5rem;
+  padding: 1.5rem 0;
+}
+
+.image-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-area img {
+  max-height: 250px;
+  max-width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  transition: all 0.3s ease-in-out;
+  border-radius: 12px;
+}
+
+.game-info {
+  text-align: center;
+}
+.game-info .word {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 2rem;
+}
+.game-info .word span {
+  border-bottom: 2px solid #222;
+  min-width: 30px;
+  text-align: center;
+  padding: 0.2rem;
+}
+.game-info .hint {
+  font-style: italic;
+  color: #ff6f61;
+  margin-top: 0.5rem;
+}
+.game-info .status {
+  background-color: #ff6f61;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  margin-inline: auto;
+}
+
+.keyboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+.keyboard button {
+  width: 50px;
+  height: 50px;
+  background-color: #3799e7;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background 0.2s, transform 0.1s ease-in-out;
+  cursor: pointer;
+}
+.keyboard button:hover {
+  background-color: #1980d2;
+  transform: scale(1.05);
+}
+.keyboard button.used {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.game-footer {
+  text-align: center;
+}
+.game-footer .result {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.game-footer .btn {
+  background-color: #3799e7;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.game-footer .btn:hover {
+  background-color: #1980d2;
+}
+.game-footer .info-text {
+  font-size: 0.9rem;
+  color: #222;
+  margin-top: 1rem;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  transition: opacity 0.3s ease;
+}
+.modal.hidden {
+  display: none;
+}
+.modal .modal-content {
+  background: white;
+  padding: 3rem 2rem;
+  border-radius: 24px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  max-width: 600px;
+  width: 95%;
+  transform: scale(1.05);
+  animation: popIn 0.4s ease-out;
+}
+.modal .modal-content img {
+  max-height: 280px;
+  width: auto;
+  margin-bottom: 1.5rem;
+}
+.modal .result-text {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.modal .word-reveal {
+  font-size: 1.3rem;
+  color: #222;
+  margin-bottom: 1.5rem;
+}
+.modal .modal-content .btn {
+  font-size: 1.1rem;
+  padding: 0.7rem 1.5rem;
+}
+
+@keyframes popIn {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+}
+#shinchan-img {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+#shinchan-img.visible {
+  opacity: 1;
+}
+
+@media (max-width: 1024px) {
+  .keyboard button {
+    width: 44px;
+    height: 44px;
+    font-size: 1rem;
+  }
+  .game-info .word {
+    font-size: 1.6rem;
+    letter-spacing: 6px;
+  }
+}
+@media (max-width: 600px) {
+  .container {
+    padding: 0.5rem;
+  }
+  .header {
+    font-size: 1.4rem;
+    padding: 0.8rem;
+  }
+  .image-area img {
+    max-height: 180px;
+  }
+  .keyboard button {
+    width: 36px;
+    height: 36px;
+    font-size: 0.9rem;
+  }
+  .game-info .word {
+    font-size: 1.4rem;
+    letter-spacing: 5px;
+  }
+  .status,
+  .hint {
+    font-size: 0.9rem;
+  }
+  .info-text {
+    font-size: 0.8rem;
+  }
+  .btn {
+    font-size: 0.85rem;
+    padding: 0.5rem 1rem;
+  }
+}

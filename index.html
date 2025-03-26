@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--Mudit Mahna-->
+<head>
+  <meta charset="UTF-8" />
+  <title>COMP2132 Hangman - Shin Chan Edition</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>COMP2132 'Hangman'</h1>
+    </header>
+
+    <main class="game-grid">
+      <div class="image-area">
+        <img id="shinchan-img" class="visible" src="images/shinchan0.png" alt="Shin Chan Reaction">
+
+      </div>
+
+      <div class="game-info">
+        <div id="word-display" class="word">_ _ _ _</div>
+        <div id="hint" class="hint">Hint will appear here</div>
+        <div id="guess-status" class="status">Incorrect guesses: 0/7</div>
+      </div>
+
+      <div id="keyboard" class="keyboard"></div>
+
+      <div class="game-footer">
+        <div id="result-message" class="result"></div>
+        <button id="play-again-btn" class="btn" style="display: none;">Play Again</button>
+        <p class="info-text">
+          Guess a letter from the mystery word. But be careful... every wrong guess gets Shin Chan closer to big trouble with his mom!
+        </p>
+      </div>
+    </main>
+
+    <div id="result-modal" class="modal hidden">
+      <div class="modal-content">
+        <img id="modal-img" src="" alt="Result Image" />
+        <p id="modal-message" class="result-text"></p>
+        <p id="modal-word" class="word-reveal"></p>
+        <button id="modal-play-again" class="btn">Play Again</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
